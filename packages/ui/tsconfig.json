@@ -18,6 +18,8 @@
     "declaration": true,
     "emitDeclarationOnly": true,
 
+    "outDir": "dist",
+
     "paths": {
       "~": ["."],
       "~/*": ["./*"]

@@ -12,13 +12,10 @@
     "skipLibCheck": true,
     "downlevelIteration": true,
     "allowSyntheticDefaultImports": true,
-
     "composite": true,
-
-    "paths": {
-      "~": ["."],
-      "~/*": ["./*"]
-    }
+    "outDir": "dist"
   },
-  "references": [{ "path": "../ui/tsconfig.json" }]
+  "references": [
+    { "path": "../ui" }
+  ]
 }
