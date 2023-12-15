@@ -6,19 +6,13 @@
 
     "moduleResolution": "bundler",
     "moduleDetection": "force",
+    "outDir": "dist",
 
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "downlevelIteration": true,
     "allowSyntheticDefaultImports": true,
-
-    "composite": true,
-    "noEmit": false,
-    "declaration": true,
-    "emitDeclarationOnly": true,
-
-    "outDir": "dist",
 
     "paths": {
       "~": ["."],

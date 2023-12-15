@@ -16,6 +16,6 @@
     "outDir": "dist"
   },
   "references": [
-    { "path": "../ui" }
+    { "path": "../ui/tsconfig.monorepo.json" }
   ]
 }
