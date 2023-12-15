@@ -1,0 +1,11 @@
+{
+  "name": "@ts-monorepo/app",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@ts-monorepo/ui": "workspace:^"
+  }
+}
